@@ -1,29 +1,29 @@
 print("Welcome")
 
 
-def add(x, y):
-    z = x + y
+def add(a, b):
+    z = a + b
     print(z)
 
 
-def mul(x, y):
+def mul(a, b):
     z = x * y
     print(z)
 
 
-def sub(x, y):
-    if x >> y:
-        z = x - y
+def sub(a, b):
+    if a > b:
+        z = a - b
         print(z)
 
     else:
         print(" Please give appropriate values.")
 
 
-def div(x, y):
-    if y == 0:
+def div(a, b):
+    if b == 0:
         print("A division by zero is not possible, please give appropriate values.")
 
     else:
-        z = x / y
+        z = a / b
         print(z)
