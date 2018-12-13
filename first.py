@@ -7,7 +7,7 @@ def add(a, b):
 
 
 def mul(a, b):
-    z = x * y
+    z = a * b
     print(z)
 
 
