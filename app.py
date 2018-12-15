@@ -1,2 +1,3 @@
-import calc2
+from calc_Sid import calculating
 
+calculating()
