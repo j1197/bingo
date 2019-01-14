@@ -17,6 +17,4 @@ def sort_words():
     print(s)
 
 
-
-
 sort_words()
